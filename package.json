@@ -2,7 +2,7 @@
   "name": "space_world",
   "private": true,
   "type": "module",
-  "homepage": "http://illsmithda.github.io/solar_worlds",
+  "homepage": "http://illsmithda.github.io/solar_worlds/",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
