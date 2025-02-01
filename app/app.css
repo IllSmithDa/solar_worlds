@@ -12,4 +12,11 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+  margin: 0;
+}
+canvas {
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
 }
