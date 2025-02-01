@@ -217,17 +217,17 @@ function createMoonMesh(geo, mat, parent) {
   parent.add(mesh);
   return mesh;
 }
-const sunImage = "/assets/sun_texture-BfaUCBxs.jpg";
-const mercuryImage = "/assets/2k_mercury-lhhbYhEJ.jpg";
-const venusImage = "/assets/2k_venus-B7XKoL-0.jpg";
-const earthImage = "/assets/earth_texture-DKLT2WuX.jpg";
-const marsImage = "/assets/2k_mars-BX2JGd6W.jpg";
-const jupiterImage = "/assets/2k_jupiter-CEiO5JSj.jpg";
-const saturnImage = "/assets/2k_saturn-BOztX_Vf.jpg";
-const uranusImage = "/assets/2k_uranus-QU9XKwEw.jpg";
-const neptuneImage = "/assets/2k_neptune-CRPHsRry.jpg";
-const saturnRingImage = "/assets/2k_saturn_ring_alpha-Uee5GQV2.png";
-const earthMoonImage = "/assets/2k_moon-BMpRMzYO.jpg";
+const sunImage = "/solar_worlds/assets/sun_texture-BfaUCBxs.jpg";
+const mercuryImage = "/solar_worlds/assets/2k_mercury-lhhbYhEJ.jpg";
+const venusImage = "/solar_worlds/assets/2k_venus-B7XKoL-0.jpg";
+const earthImage = "/solar_worlds/assets/earth_texture-DKLT2WuX.jpg";
+const marsImage = "/solar_worlds/assets/2k_mars-BX2JGd6W.jpg";
+const jupiterImage = "/solar_worlds/assets/2k_jupiter-CEiO5JSj.jpg";
+const saturnImage = "/solar_worlds/assets/2k_saturn-BOztX_Vf.jpg";
+const uranusImage = "/solar_worlds/assets/2k_uranus-QU9XKwEw.jpg";
+const neptuneImage = "/solar_worlds/assets/2k_neptune-CRPHsRry.jpg";
+const saturnRingImage = "/solar_worlds/assets/2k_saturn_ring_alpha-Uee5GQV2.png";
+const earthMoonImage = "/solar_worlds/assets/2k_moon-BMpRMzYO.jpg";
 const solarData = [
   {
     name: "Sun",
@@ -453,12 +453,12 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: home,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-DG4GZFT6.js", "imports": ["/assets/chunk-W3FMU5Y5-DbWgRKTh.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-Bj_x2hmm.js", "imports": ["/assets/chunk-W3FMU5Y5-DbWgRKTh.js", "/assets/with-props-B3jp9oNr.js"], "css": ["/assets/root-D0lL4rGi.css"] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/home-DuDNBpZw.js", "imports": ["/assets/with-props-B3jp9oNr.js", "/assets/chunk-W3FMU5Y5-DbWgRKTh.js"], "css": [] } }, "url": "/assets/manifest-db5a3e23.js", "version": "db5a3e23" };
+const serverManifest = { "entry": { "module": "solar_worldsassets/entry.client-DG4GZFT6.js", "imports": ["solar_worldsassets/chunk-W3FMU5Y5-DbWgRKTh.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "solar_worldsassets/root-Bj_x2hmm.js", "imports": ["solar_worldsassets/chunk-W3FMU5Y5-DbWgRKTh.js", "solar_worldsassets/with-props-B3jp9oNr.js"], "css": ["solar_worldsassets/root-D0lL4rGi.css"] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "solar_worldsassets/home-FFOZGDZb.js", "imports": ["solar_worldsassets/with-props-B3jp9oNr.js", "solar_worldsassets/chunk-W3FMU5Y5-DbWgRKTh.js"], "css": [] } }, "url": "solar_worldsassets/manifest-d713f17a.js", "version": "d713f17a" };
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
 const isSpaMode = false;
-const publicPath = "/";
+const publicPath = "solar_worlds";
 const entry = { module: entryServer };
 const routes = {
   "root": {
