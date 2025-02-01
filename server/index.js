@@ -453,12 +453,12 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: home,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "solar_worldsassets/entry.client-DG4GZFT6.js", "imports": ["solar_worldsassets/chunk-W3FMU5Y5-DbWgRKTh.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "solar_worldsassets/root-Bj_x2hmm.js", "imports": ["solar_worldsassets/chunk-W3FMU5Y5-DbWgRKTh.js", "solar_worldsassets/with-props-B3jp9oNr.js"], "css": ["solar_worldsassets/root-D0lL4rGi.css"] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "solar_worldsassets/home-FFOZGDZb.js", "imports": ["solar_worldsassets/with-props-B3jp9oNr.js", "solar_worldsassets/chunk-W3FMU5Y5-DbWgRKTh.js"], "css": [] } }, "url": "solar_worldsassets/manifest-d713f17a.js", "version": "d713f17a" };
+const serverManifest = { "entry": { "module": "/solar_worlds/assets/entry.client-DG4GZFT6.js", "imports": ["/solar_worlds/assets/chunk-W3FMU5Y5-DbWgRKTh.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/solar_worlds/assets/root-Bj_x2hmm.js", "imports": ["/solar_worlds/assets/chunk-W3FMU5Y5-DbWgRKTh.js", "/solar_worlds/assets/with-props-B3jp9oNr.js"], "css": ["/solar_worlds/assets/root-D0lL4rGi.css"] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/solar_worlds/assets/home-FFOZGDZb.js", "imports": ["/solar_worlds/assets/with-props-B3jp9oNr.js", "/solar_worlds/assets/chunk-W3FMU5Y5-DbWgRKTh.js"], "css": [] } }, "url": "/solar_worlds/assets/manifest-41b643fb.js", "version": "41b643fb" };
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
 const isSpaMode = false;
-const publicPath = "solar_worlds";
+const publicPath = "/solar_worlds/";
 const entry = { module: entryServer };
 const routes = {
   "root": {
